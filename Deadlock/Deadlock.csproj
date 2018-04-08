@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SharedResourceConsumer.cs" />
+    <Compile Include="EventDeadlockProneMultipleResourceUpdater.cs" />
+    <Compile Include="MutexDeadlockProneMultipleResourceUpdater.cs" />
+    <Compile Include="MonitorDeadlockProneMultipleResourceUpdater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
